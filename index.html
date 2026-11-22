@@ -3594,7 +3594,7 @@ async function submitActivation(){
   const id=getOrCreateDeviceId();
   $('activationError').style.display='none';
 
-  if(!ACTIVATION_API_URL||ACTIVATION_API_URL==='https://script.google.com/macros/s/AKfycbxmiLhidE_1hFmRX_hRieh3VVHwuupQATMZY48CyT2Nn_0g5OZLXkA7M1KWfTmqy2UA9w/exec'){
+  if(!ACTIVATION_API_URL||ACTIVATION_API_URL==='PASTE_YOUR_APPS_SCRIPT_URL_HERE'){
     $('activationError').textContent='לא הוגדר שרת אישור (ACTIVATION_API_URL) בקוד';
     $('activationError').style.display='block';
     return;
